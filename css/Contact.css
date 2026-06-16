@@ -15,7 +15,8 @@
 .color-link-box {
   display: inline-block;
   background-color: #1e2a5a; 
-  color: #ffffff; 
+  color: #ffffff;
+    margin: 70px;
   padding: 15px 30px; 
   text-decoration: none; 
   font-family: sans-serif; 
