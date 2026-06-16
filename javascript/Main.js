@@ -1,5 +1,5 @@
 const EmailButton = document.getElementById("EmailButton");
-const EmailURL = "mailto:reception@mscentrebedsandnorthants.com";
+const EmailURL = "mailto:info@bmstc.org";
 
 function OpenMailApp() {
     window.location.href = EmailURL;
