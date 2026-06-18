@@ -8,25 +8,38 @@
   <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
   <link rel="stylesheet" href="css/Main.css">
   <link rel="stylesheet" href="css/Donate.css">
+    <style>
+    .icon {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  </style>
+  
 
   <script src="javascript/Donate.js" defer></script>
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
+ <!-- NAVBAR -->
   <nav class="navbar">
+    <div class="brand">
+    <a href="index.html"><img src="images/logo.webp" alt="Icon Logo" class="icon"></a>
     <div class="logo">Bedford <span>MS Therapy Centre</span></div>
-
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="hamburger">&#9776;</label>
+    </div>
 
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="events.html">Events</a></li>
+      <li><a href="shop.html">Shop</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="news.html">News</a></li>
     </ul>
 
     <a href="donate.html" class="donate-btn">Donate</a>

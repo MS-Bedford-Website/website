@@ -3,34 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico" />
     <title>Pop-Up Art Exhibition</title>
     
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico" />
     <link rel="stylesheet" href="css/Main.css">
     <link rel="stylesheet" href="css/Index_Events.css">
     <link rel="stylesheet" href="css/Pop-up.css">
-
+        <style>
+            .icon {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            }
+            .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            }
+        </style>
+   
     <script src ="javascript/IR.js"></script>
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
-    <nav class="navbar">
-        <div class="logo">Bedford <span>MS Therapy Centre</span></div>
+ <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="brand">
+    <a href="index.html"><img src="images/logo.webp" alt="Icon Logo" class="icon"></a>
+    <div class="logo">Bedford <span>MS Therapy Centre</span></div>
+    </div>
 
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="hamburger">&#9776;</label>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
 
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-
-        <a href="donate.html" class="donate-btn">Donate</a>
-    </nav>
+    <a href="donate.html" class="donate-btn">Donate</a>
+  </nav>
 
   <!-- Section for body so that effects can be applied to body only-->
       
