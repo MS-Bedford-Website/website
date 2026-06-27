@@ -65,7 +65,7 @@ body {
       background-color: #c2185b;
     }
 
-    /* Hamburger */
+     /* Hamburger */
     .hamburger {
       display: none;
       font-size: 2rem;
@@ -79,18 +79,19 @@ body {
     @media (max-width: 768px) {
       .nav-links {
         position: absolute;
-        top: 70px;
+        top: 70%;
         right: 0;
-        background-color: #1e2a5a;
-        width: 100%;
+        background-color: #1a1f32;
+        width: 125px;
         flex-direction: column;
         text-align: center;
         display: none;
-        padding: 20px 0;
+        border-radius: 8px;
+        padding: 1px 0;
       }
 
       .nav-links li {
-        margin: 15px 0;
+        margin: 1px 0;
       }
 
       #menu-toggle:checked ~ .nav-links {
